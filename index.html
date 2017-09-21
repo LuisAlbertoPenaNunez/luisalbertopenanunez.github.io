@@ -1,406 +1,793 @@
---- 
----
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!-->
-<html>
-<!--<![endif]-->
+<!DOCTYPE HTML>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="One Page Personal HTML Template">
+		<meta name="keywords" content="">
+		<meta name="author" content="Themehexa">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
-    <meta name="author" content="">
+		<title>Luis Alberto Peña Nuñez</title>
 
-    <title>Luis Peña Nuñez</title>
+		<!-- Favicon -->
+		<link href="assets/img/favicon.ico" rel="icon" type="image/x-icon">			
 
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Bootstrap css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
-        rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+		<!-- Bootstrap fullscreen modal -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-modal-carousel.css">
 
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/css/general.css" rel="stylesheet">
+		<!-- Animated text css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/animated-text.css">
 
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/css/custom.css" rel="stylesheet">
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/css/owl.carousel.css" rel="stylesheet">
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/css/owl.theme.css" rel="stylesheet">
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/css/style.css" rel="stylesheet">
-    <link href="{{ site.github.url | replace: 'http://', '//' }}/css/animate.css" rel="stylesheet">
+		<!-- Custom css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 
-    <link rel="stylesheet" href="{{ site.github.url | replace: 'http://', '//' }}/css/magnific-popup.css">
-
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/modernizr-2.8.3.min.js"></script>
-    <!-- Modernizr /-->
-    <!--[if IE 9]>
-		<script src="js/PIE_IE9.js"></script>
-	<![endif]-->
-    <!--[if lt IE 9]>
-		<script src="js/PIE_IE678.js"></script>
-	<![endif]-->
-
-    <!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
-
-</head>
-
-<body id="home">
-
-    <!-- Preloader -->
-    <div id="preloader">
-        <div id="status"></div>
-    </div>
-
-    <!-- FullScreen -->
-    <div class="intro-header">
-        <div class="col-xs-12 text-center abcen1">
-            <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Luis Peña Nuñez</h1>
-            <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">When my code fails to compile the compiler apologizes</h3>
-            <ul class="list-inline intro-social-buttons">
-                <li>
-                    <a href="https://www.linkedin.com/in/luis-alberto-pe%C3%B1a-nu%C3%B1ez-aa70a5103/" class="btn  btn-lg mybutton_cyano wow fadeIn"
-                        data-wow-delay="0.8s"><span class="network-name">Check me out on LinkedIn</span></a>
-                </li>
-                <!--<li id="download">
-                    <a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
-                </li>-->
-            </ul>
-        </div>
-
-        <div class="col-xs-12 text-center abcen wow fadeIn">
-            <div class="button_down ">
-                <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#whatis"> <img class="img_scroll" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/circle.png" alt="">                    </a>
-            </div>
-        </div>
-    </div>
-
-    <nav class="navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle Navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-                <a class="navbar-brand" href="#home">Luis Peña Nuñez</a>
-            </div>
-
-            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-
-                    <li class="menuItem"><a href="#whatis">Knowledge</a></li>
-                    <li class="menuItem"><a href="#useit">Use It</a></li>
-                    <li class="menuItem"><a href="#screen">Skills</a></li>
-                    <li class="menuItem"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
-
-    <div id="whatis" class="content-section-b" style="border-top: 0">
-        <div class="container">
-
-            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                <h2>Knowledge</h2>
-                <p class="lead" style="margin-top:0; font-size: 50px;">😎✌️</p>
-
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4 wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/android.png">
-                    <h3>Xamarin Android</h3>
-                    <p class="lead">Been working in the industry since Android 4.0 came out and Android Studio was in its first release.
-                    </p>
-                </div>
-                <div class="col-sm-4 wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/xamarin-forms.png">
-                    <h3>Xamarin Forms</h3>
-                    <p class="lead">Top-notch platform to work with, its simplicity and brilliant architecture is what made me fall in love with Forms.
-                    </p>
-                </div>
-                <div class="col-sm-4 wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/xamarin-ios.png">
-                    <h3>Xamarin iOS</h3>
-                    <p class="lead">
-                        Started right after working with Xamarin Forms, since I had to build a few custom renderers for iOS.
-                    </p>
-                </div>
-                
-            </div>
-            <div class="row tworow">
-                <div class="col-sm-4  wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/jekyll.png">
-                    <h3>Jekyll</h3>
-                    <p class="lead">I built this website on Jekyll, enough said.
-                    </p>
-                </div>
-                
-                <div class="col-sm-4 wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/angular2.png">
-                    <h3>Angular 2</h3>
-                    <p class="lead">The most recent platform I have been working on alongside Typescript + PUG + Visual Studio Code.
-                    </p>
-                </div>
-
-                <div class="col-sm-4  wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/source-control.png">
-                    <h3>Source Control Tools</h3>
-                    <p class="lead">Solving merge conflicts and rebase everyday through the Terminal (Git).
-                    </p>
-                </div>
-            </div>
+		<!-- Owl Carousel css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
 
 
-            <div class="row tworow">
+		<!-- Animate css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
+		<!-- Themify icon -->
+		<link href="assets/themify-icons/themify-icons.css" rel="stylesheet" type="text/css">			
 
-                <div class="col-sm-4 wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/teamcity.png">
-                    <h3>Teamcity</h3>
-                    <p class="lead">Bringing quality to my clients is my #1 top priority and using Teamcity is a great tool to accomplish said goal.
-                    </p>
-                </div>
+		<!-- Google fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,600italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500' rel='stylesheet' type='text/css'>
 
-                <div class="col-sm-4 wow fadeInDown text-center">
-                    <img class="rotate" src="{{ site.github.url | replace: 'http://', '//' }}/img/icon/sketch.png">
-                    <h3>Sketch</h3>
-                    <p class="lead">Although I am not a product designer, I have worked with sketch to design apps and i'm open to help wherever possible.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
 
-    <div id="useit" class="content-section-a">
+	</head>
 
-        <div class="container">
+	<body id="page-top" class="index">
 
-            <div class="row">
-
-                <div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="{{ site.github.url | replace: 'http://', '//' }}/img/code-quality.png" alt="">
-                </div>
-
-                <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
-                    <h3 class="section-heading">Code Quality</h3>
-                    <div class="sub-title lead3">Provinding quality to my clients in a smart but simple way whenever possible<br></div>
-                    <p class="lead">
-                        Long term mindset; just because there is a faster way to implement it, doesn't mean that's the best way. Simplicity first, Pattern Designs later.
-                    </p>
-
-                    <p><a class="btn btn-embossed btn-primary" href="#" role="button">Checkout this Project</a>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-
-    <div class="content-section-b">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeftBig">
-                    <div id="owl-demo-1" class="owl-carousel">
-                        <a href="{{ site.github.url | replace: 'http://', '//' }}/img/visuals_3.jpg" class="image-link">
-                            <div class="item">
-                                <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/visuals_3.jpg" alt="">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 wow fadeInRightBig" data-animation-delay="200">
-                    <h3 class="section-heading">Visuals are important too!</h3>
-                    <div class="sub-title lead3">It's not all about coding.</div>
-                    <p class="lead">
-                        Because users determines the business' success.
-                    </p>
-
-                    <p><a class="btn btn-embossed btn-primary" href="#" role="button">Checkout this project</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="downloadlink" class="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Because UX matters!</h2>
-				<p class="lead" style="margin-top:0">It's not just about the code.</p>
-			 </div>
-			</div>
+		<!-- Preloader -->
+		<div id="loader">
+			<div class="icon"></div>
 		</div>
-	</div>
+		<!-- END: Preloader -->		
 
-    <div class="content-section-a">
+		<!-- Header -->
+		<header class="header-img">
+			<div class="header-overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-left">
+                                <img src="assets/img/MobileDeveloperCertification.svg" width="200">
+							<h1>Hi, I'm Luis</h1>
+							<h2 class="cd-headline clip is-full-width">
+								<span class="cd-words-wrapper">
+									<b class="is-visible">Professional Xamarin Developer</b>
+									<b>Fun loving &amp; coffee freak!</b>
+									<b>Coding is my passion</b>
+								</span>
+							</h2>
+                            <a href="#about" class="page-scroll btn custom-btn-3">LEARN MORE</a>
+                            
+						</div>
+					</div>
+				</div>
+		</header>
+		<!-- END: Header -->
 
-        <div class="container">
+		<!-- Navigation -->
+		<div id="navigation">
+			<nav class="navbar navbar-default navbar-static-top" id="nav">
+		        <div class="container">
+		          <div class="navbar-header page-scroll">
+		            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		              <span class="sr-only">Toggle navigation</span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		            </button>
+		            <!-- Brand -->
+		            <a class="navbar-brand page-scroll" href="#page-top"> 
+                        <i class="fa fa-adjust" aria-hidden="true" style="padding-left:20px;font-size:30px;padding-top:5px;"></i>
+                    </a>
+		            <!-- End Brand -->
+		          </div>
+		          <div class="collapse navbar-collapse">
+		            <ul class="nav navbar-nav navbar-right">
+		              	<li>
+		                	<a class="page-scroll" href="#about">About</a>
+		              	</li>
+		              	<li>
+		                	<a class="page-scroll" href="#skills">Skills</a>
+		              	</li>		              	
+		              	<li>
+		                	<a class="page-scroll" href="#portfolio">Portfolio</a>
+		              	</li>
+		              	<li>
+		                	<a class="page-scroll" href="#experience">Resume</a>
+		              	</li>	
+		              	<li>
+		                	<a class="page-scroll" href="#reviews">Reviews</a>
+		              	</li>		              	
+		              	<li>
+		                	<a class="page-scroll" href="#blog">Blog</a>
+		              	</li>		              	              	              	
+		              	<li>
+		                	<a class="page-scroll" href="#contact">Contact</a>
+		              	</li>		              			              
+		            </ul>
+		          </div>
+		        </div>
+		    </nav>
+		</div>
+		<!-- END: Navigation -->
 
-            <div class="row">
+		<!-- About -->
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="sub-headline">What I do<span class="dot">.</span></h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+						<h3><span class="number">1.</span>Website Layout</h3>
+						<p>Design mockups for agencies who have in-house developers ready to build.</p>
+					</div>				
+					<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+						<h3><span class="number">2.</span>Logo Design</h3>
+						<p>I will provide logo that is fresh, innovative &amp; truly means business.</p>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
+						<h3><span class="number">3.</span>Brand Identity</h3>
+						<p>For your brand to be impactful, remembered &amp; easily recognized.</p>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+						<h3><span class="number">4.</span>Print Design</h3>
+						<p>Ready-to-print posters, flyers to business cards &amp; letterhead.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: About -->
 
-                <div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="{{ site.github.url | replace: 'http://', '//' }}/img/doge.png" alt="">
-                </div>
+		<!-- Introduction -->
+		<section id="introduction">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 profile">
+						<img src="assets/img/1.jpg" alt="" class="img-responsive center-block">
+					</div>
+					<div class="col-md-6">
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+							<h2 class="sub-headline">Introduction<span class="dot">.</span></h2>
+							<p><u>Hi, there!</u>&nbsp;I am Luis. Currently working as a Mobile Developer. I am always passionate about mobile, love to create modern design &amp; provide great client support.</p>	
 
-                <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
-                    <h3 class="section-heading">Open-Source Code Lover</h3>
-                    <p class="lead">
-                        List of projects i have contributed to, and started from scratch too.
-                        
-                        <ol>
-                            <li><a href="https://github.com/DevWizza/InternLife">Intern Life <span class="badge">Owner</span></a></li>
-                            <li><a href="https://github.com/DevWizza/Leona-Store">Leona Store <span class="badge">Owner</span></a></li>
-                            <li><a href="https://github.com/developersdo/empleo-dot-net">Emplea.do</a></li>
-                            <li><a href="https://github.com/LuisAlbertoPenaNunez/Marioneta">Marioneta</a></li>
-                            <li><a href="https://github.com/CodeCampSDQ/CodecampSQD5">Code Camp SDQ 5</a></li>
-                        </ol>
+							<ul class="info">
+								<li>Date Of Birth : 05 June, 1998</li>	
+                                <li>Country of Birth: The Dominican Republic</li>
+                                <li>Residence: Minnesota, United States</li>
+							</ul>
+						</div>		
 
-                        <p><a class="btn btn-embossed btn-primary" href="#" role="button">Checkout my Github profile</a>
-                    </p>
-                </div>
+							<div class="download-cv wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+								<a href="#">Download CV</a>
+							</div>						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Introduction -->
+
+		<!-- Skills -->
+		<section id="skills">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+					<h2 class="sub-headline">Platforms<span class="dot">.</span></h2>
+						<p>Lorem ipsum dolor sit amet, mundi invidunt persequeris eu sed ridens facilisis eum. Lorem ipsum dolor sit amet, mundi invidunt sed ridens facilisis eum.</p>
+					</div>				
+					<div class="col-md-4">
+							<h3>Sketch</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="45"></div>
+							</div>
+
+							<h3>Xamarin Android Development</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="95"></div>
+							</div>	
+
+							<h3>Xamarin iOS Development</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="90"></div>
+							</div>							
+					</div>
+					<div class="col-md-4">
+							<h3>Xamarin Forms Development</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="100"></div>
+							</div>
+
+							<h3>Angular 2</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="80"></div>
+							</div>	
+
+							<h3>Jekyll</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="50"></div>
+							</div>							
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- END: Skills -->
+        
+        <!-- Skills -->
+		<section id="skills">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+					<h2 class="sub-headline">Frameworks<span class="dot">.</span></h2>
+						<p>Lorem ipsum dolor sit amet, mundi invidunt persequeris eu sed ridens facilisis eum. Lorem ipsum dolor sit amet, mundi invidunt sed ridens facilisis eum.</p>
+					</div>				
+					<div class="col-md-4">
+							<h3>MvvmCross</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="80"></div>
+							</div>
+
+							<h3>Prism</h3>
+							<div class="progress">
+    							<div class="progress-bar" role="progressbar" data-transitiongoal="100"></div>
+							</div>	
+
+										
+					</div>
+					<div class="col-md-4">
+                        <h3>FreshMvvm</h3>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" data-transitiongoal="50"></div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Skills -->
+
+		<!-- Work Strategy -->
+		<section id="strategy">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="sub-headline">Work strategy<span class="dot">.</span></h2>
+					</div>
+				</div>
+				<div class="row sub-icon">
+					<div class="col-md-4">
+
+						<div class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+							<h3><span class="ti-light-bulb"></span>Ideas</h3>
+							<p>Lorem ipsum dolor sit amet, mundi invidunt persequeris eu sed ridens facilisis eum.</p>
+						</div>		
+
+						<div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+							<h3><span class="ti-pencil"></span>Design</h3>
+							<p>Lorem ipsum dolor sit amet, mundi invidunt persequeris eu sed ridens facilisis eum.</p>	
+						</div>	
+
+						</div>
+						<div class="col-md-4">
+							<img src="assets/img/2.png" class="img-responsive center-block" alt="">
+						</div>
+						<div class="col-md-4">
+
+						<div class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+							<h3><span class="ti-control-shuffle"></span>Approve</h3>
+							<p>Lorem ipsum dolor sit amet, mundi invidunt persequeris eu sed ridens facilisis eum.</p>
+						</div>	
+
+						<div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+							<h3><span class="ti-upload"></span>Live</h3>
+							<p>Lorem ipsum dolor sit amet, mundi invidunt persequeris eu sed ridens facilisis eum.</p>
+						</div>	
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Work strategy -->
+
+		<!-- Quotes -->
+		<section id="quotes">
+			<div class="container">
+				<div class="quotes-overlay"></div>
+				<div class="row">
+					<div class="col-md-8 col-md-push-2 text-center">
+						<h2>Simplicity is the ultimate sophistication.</h2>	
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Quotes -->
+
+		<!-- Portfolio -->
+		<section id="portfolio" class="portfolio-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="sub-headline">Portfolio<span class="dot">.</span></h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 item-filter bot-margin">
+    					<ul class="list-inline text-center">
+    						<li class="filter" data-filter="all">All</li>
+    						<li class="filter" data-filter=".print">Print</li>
+    						<li class="filter" data-filter=".brand">Brand</li>
+    						<li class="filter" data-filter=".logo">Logo</li>
+    					</ul>
+    				</div>
+    				<div id="portfolio-items" class="col-xs-12">
+    					<div class="row">	
+		    				<div class="col-md-3 col-xs-12 mix brand" data-myorder="1">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio01.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>	
+		    				</div>
+		    				<div class="col-md-3 col-xs-12 mix logo" data-myorder="2">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio02.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>
+		    				</div>	
+		    				<div class="col-md-3 col-xs-12 mix print" data-myorder="3">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio03.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>
+		    				</div>
+		    				<div class="col-md-3 col-xs-12 mix logo" data-myorder="4">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio04.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>
+		    				</div>		    							
+		    				<div class="col-md-3 col-xs-12 mix brand" data-myorder="4">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio05.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>
+		    				</div>	
+		    				<div class="col-md-3 col-xs-12 mix brand" data-myorder="4">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio06.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>
+		    				</div>
+		    				<div class="col-md-3 col-xs-12 mix print" data-myorder="4">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio07.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>
+		    				</div>	
+		    				<div class="col-md-3 col-xs-12 mix print" data-myorder="4">					
+		    					<a href="#" data-toggle="modal" data-target="#portfolio1">
+		    						<div class="img-wrap">
+		    							<img src="assets/img/portfolio/portfolio08.jpg" alt="" class="img-responsive center-block">
+		    							<div class="img-overlay"></div>
+		    						</div>	
+		    					</a>
+		    				</div>		    					    						    				
+		    			</div>  
+		    		</div>	  				
+		    	</div>					
+			</div>
+
+			<!-- Portfolio1 fullscreen modal -->
+           	<div id="portfolio1" class="modal fade modal-fullscreen force-fullscreen" tabindex="-1" role="dialog" aria-hidden="true">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<div class="modal-header">
+	        					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        					<div class="modal-title">
+	        						<div class="container">
+	        							<div class="row">
+	        								<div class="col-md-12">
+	        									<h2>Project Details</h2>
+	        								</div>
+	        							</div>
+	        						</div>
+	        					</div>      									
+
+      					</div>
+      					<div class="modal-body">
+
+      						<div class="container">
+        						<div class="row top-margin">
+        							<div class="col-md-4">
+        								<img src="assets/img/portfolio/portfolio01.jpg" alt="" class="img-responsive center-block">
+        							</div>
+        							<div class="col-md-8">
+        								<h3>Project -</h3>
+        								<p>Logo creation of XYZ</p>
+        								<h3>Description -</h3>
+        								<p>Ipsum partem voluptatibus ex nam, prima virtute electram ius ei, vide error intellegat id cum. Duo ut accumsan molestie. Feugait referrentur vel in, te nostro convenire per, nullam nostrud placerat cum ne. Ne ancillae expetenda nec, dicam oportere te mel, audiam mnesarchum.</p>
+        								<h3>Comments -</h3>
+        								<p>Ipsum partem voluptatibus ex nam, prima virtute electram ius ei, vide error intellegat id cum. Duo ut accumsan molestie. Feugait referrentur vel in, te nostro convenire per, nullam nostrud.</p>
+        							</div>
+        						</div>
+        					</div>	
+
+      					</div>
+      					<div class="modal-footer">
+      						<div class="container">
+	      						<div class="row">
+	      							<div class="col-md-12">
+	        							<button type="button" class="btn custom-btn-2 pull-left" data-dismiss="modal">Close</button>
+	        						</div>	
+	        					</div>	
+	        				</div>	
+      					</div>
+    				</div>
+  				</div>
             </div>
-        </div>
+            <!-- END: Portfolio1 fullscreen modal -->	
 
-    </div>
+		</section>
+		<!-- END: Portfolio -->
 
-    <!-- Screenshot -->
-    <div id="screen" class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-                    <h2>Skills</h2>
-                    <p class="lead" style="margin-top:0">Enjoy my piece of arts!</p>
+		<!-- Milestone counter -->
+			
+		<!-- END: Milestone counter -->
+
+		<!-- Experience -->
+		<section id="experience">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="sub-headline">Experience in the corporate world<span class="dot">.</span></h2>
+					</div>			
+				</div>	
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/img/company/01.png" alt="" class="img-responsive center-block">
+							</div>
+							<div class="col-sm-9">
+								<div class="border-style wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+									<span class="year">2017 - PRESENT</span>
+								</div>
+								<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s">
+									<h3><span class="ti-briefcase experience"></span>Xamarin Android Developer - Megsoft Consulting</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae sem laoreet, mattis arcu at, lacinia ligula. Praesent bibendum eros ut nulla adipiscing tempus.</p>
+								</div>	
+							</div>
+						</div>	
+					</div>		
+                </div>	
+                <div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/img/company/01.png" alt="" class="img-responsive center-block">
+							</div>
+							<div class="col-sm-9">
+								<div class="border-style wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+									<span class="year">2016-2017</span>
+								</div>
+								<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s">
+									<h3><span class="ti-briefcase experience"></span>Xamarin iOS Developer - Megsoft Consulting</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae sem laoreet, mattis arcu at, lacinia ligula. Praesent bibendum eros ut nulla adipiscing tempus.</p>
+								</div>
+							</div>
+						</div>	
+					</div>		
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/img/company/02.png" alt="" class="img-responsive center-block">
+							</div>
+							<div class="col-sm-9">
+								<div class="border-style wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+									<span class="year">2015 - 2016 Internship</span>
+								</div>	
+								<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s">					
+									<h3><span class="ti-briefcase experience"></span>Xamarin Forms Developer - Megsoft Consulting</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae sem laoreet, mattis arcu at, lacinia ligula. Praesent bibendum eros ut nulla adipiscing tempus.</p>
+								</div>	
+							</div>
+						</div>	
+					</div>	
+				</div>										
+			</div>
+		</section>
+        <!-- END: Experience -->
+
+        <section id="experience">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="sub-headline">Experience in the open source world<span class="dot">.</span></h2>
+					</div>			
+                </div>	
+                <div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/img/company/01.png" alt="" class="img-responsive center-block">
+							</div>
+							<div class="col-sm-9">
+								<div class="border-style wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <span class="year">2017</span>
+                                    <span class="year">Personal Blog</span>
+								</div>
+								<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s">
+									<h3><span class="ti-briefcase experience"></span>DevWizza Organization - Intern.Life</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae sem laoreet, mattis arcu at, lacinia ligula. Praesent bibendum eros ut nulla adipiscing tempus.</p>
+								</div>	
+							</div>
+						</div>	
+					</div>		
                 </div>
-            </div>
-            <div class="row wow bounceInUp">
-                <div id="owl-demo" class="owl-carousel">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/img/company/01.png" alt="" class="img-responsive center-block">
+							</div>
+							<div class="col-sm-9">
+								<div class="border-style wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <span class="year">2017</span>
+								</div>
+								<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s">
+									<h3><span class="ti-briefcase experience"></span>DevWizza Organization</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae sem laoreet, mattis arcu at, lacinia ligula. Praesent bibendum eros ut nulla adipiscing tempus.</p>
+								</div>	
+							</div>
+						</div>	
+					</div>		
+                </div>	 
+                <div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/img/company/01.png" alt="" class="img-responsive center-block">
+							</div>
+							<div class="col-sm-9">
+								<div class="border-style wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <span class="year">2016</span>
+                                    <span class="year">Owned by Developers.Do</span>
+								</div>
+								<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s">
+									<h3><span class="ti-briefcase experience"></span>Empleo-Dot-Net</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae sem laoreet, mattis arcu at, lacinia ligula. Praesent bibendum eros ut nulla adipiscing tempus.</p>
+								</div>
+							</div>
+						</div>	
+					</div>		
+				</div>								
+			</div>
+		</section>
+        
+		<!-- Call to action -->
+		<section id="cta">
+			<div class="container">
+				<div class="cta-overlay"></div>
+				<div class="row status-icon">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-sm-8">
+								<h2 class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">Let's get in contact!</h2>
+								<h3><span class="ti-pulse pulse2"></span>Status&nbsp;:&nbsp;Available</h3>
+							</div>
+							<div class="col-sm-4 text-center">
+								<a href="#contact" class="page-scroll btn custom-btn-1">Contact</a>
+							</div>
+						</div>	
+					</div>	
+				</div>
+			</div>
+		</section>
+		<!-- END: Call to action -->
+ 
+		<!-- Blog -->
+		<section id="blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="sub-headline">My Latest Posts On My Blog and Xamarin Latino<span class="dot">.</span></h2>
+					</div>
+				</div>
+				<div class="row top-pad">
 
-                    <a href="{{ site.github.url | replace: 'http://', '//' }}/img/slide/1.png" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/slide/1.png" alt="Owl Image">
-                        </div>
-                    </a>
+					<div class="col-md-4">
+						<div class="blog-img-overlay">
+							<!-- <a href="#"><img src="https://cdn.rawgit.com/DevWizza/InternLife/gh-pages/assets/img/2017-09-01-assets/background.jpg?raw=true" width="500" alt="" class="img-responsive center-block"></a> -->
+						</div>	
+							<div class="blog-info">
+								<h3><span class="ti-layout-media-overlay-alt-2 blog-icon"></span>Prism Set Up Made Simple</h3>
+								<div class="border-style">
+									<span class="date">01 September 2017</span>
+								</div>
+								<p>Prism is a framework for building loosely-coupled maintainable code without having to spend much time thinking about architecture, in this tutorial I will take you through the process of setting up Prism in the simplest way possible. All you need is a working computer and a couple cups of coffe and patience!</p>
+							</div>
+							<div class="border-style">
+								<a href="https://www.intern.life/2017/09/01/Prism-Set-Up-Made-Simple.html" target="_blank" class="more">Read more</a>	
+							</div>	
+                    </div>
 
-                    <a href="{{ site.github.url | replace: 'http://', '//' }}/img/slide/2.png" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/slide/2.png" alt="Owl Image">
-                        </div>
-                    </a>
+                    <div class="col-md-4">
+                            <div class="blog-img-overlay">
+                                <!-- <a href="#"><img src="https://cdn.rawgit.com/DevWizza/InternLife/gh-pages/assets/img/2017-09-02-assets/background.jpg?raw=true" width="500" alt="" class="img-responsive center-block"></a> -->
+                            </div>	
+                                <div class="blog-info">
+                                    <h3><span class="ti-layout-media-overlay-alt-2 blog-icon"></span>Programmer's guide to weight loss</h3>
+                                    <div class="border-style">
+                                        <span class="date">02 September 2017</span>
+                                    </div>
+                                    <p>As a software developer I know the pain of trying to stay healthy when our schedules tend to be pretty tight. This post is not the usual how-to guide, here I want to spend some time talking about the importance of staying healthy and how to implement a diet that will boost brain power and burn fat without having to put lots of effort.</p>
+                                </div>
+                                <div class="border-style">
+                                    <a href="https://www.intern.life/2017/09/02/Programmers-guide-to-weight-loss.html" target="_blank" class="more">Read more</a>	
+                                </div>	
+                    </div>
+                    
+                    <div class="col-md-4">
+                            <div class="blog-img-overlay">
+                                <!-- <a href="#"><img src="https://cdn.rawgit.com/DevWizza/InternLife/gh-pages/assets/img/2017-09-02-assets/background.jpg?raw=true" width="500" alt="" class="img-responsive center-block"></a> -->
+                            </div>	
+                                <div class="blog-info">
+                                    <h3><span class="ti-layout-media-overlay-alt-2 blog-icon"></span>Behaviors en Xamarin Forms
+                                    </h3>
+                                    <div class="border-style">
+                                        <span class="date">02 September 2017</span>
+                                    </div>
+                                    <p>Con la llegada de Xamarin Forms 1.3 se introdujo una funcionalidad llamada Behaviors la cual te permite crear clases que encapsulan funcionalidades que pueden ser reutilizadas en Views, y debido a su naturaleza es fácil de hacer unit-testing. Behaviors en Xamarin Forms es funcionalidad encapsulada que se añade a una vista, así de simple.</p>
+                                </div>
+                                <div class="border-style">
+                                    <a href="https://xamarinlatino.com/behaviors-en-xamarin-forms-d105a929ab0e" target="_blank" class="more">Read more</a>	
+                                </div>	
+                    </div>
 
-                    <a href="{{ site.github.url | replace: 'http://', '//' }}/img/slide/3.png" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/slide/3.png" alt="Owl Image">
-                        </div>
-                    </a>
+                    <div class="col-md-4">
+                            <div class="blog-img-overlay">
+                                <!-- <a href="#"><img src="https://cdn.rawgit.com/DevWizza/InternLife/gh-pages/assets/img/2017-09-02-assets/background.jpg?raw=true" width="500" alt="" class="img-responsive center-block"></a> -->
+                            </div>	
+                                <div class="blog-info">
+                                    <h3><span class="ti-layout-media-overlay-alt-2 blog-icon"></span>Uso Práctico de Behaviors en Xamarin Forms</h3>
+                                    <div class="border-style">
+                                        <span class="date">02 September 2017</span>
+                                    </div>
+                                    <p>Los behaviors te permiten crear funcionalidad avanzada que puede ser reutilizada entre diferentes controles, simplificando la arquitectura y minimizando el nivel de complejidad de una aplicación móvil.</p>
+                                </div>
+                                <div class="border-style">
+                                    <a href="https://xamarinlatino.com/uso-practico-de-behaviors-en-xamarin-forms-cd17042199b3" target="_blank" class="more">Read more</a>	
+                                </div>	
+                    </div>
 
-                    <a href="{{ site.github.url | replace: 'http://', '//' }}/img/slide/1.png" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/slide/1.png" alt="Owl Image">
-                        </div>
-                    </a>
+				</div>
+			</div>
+		</section>
+		<!-- END: Blog -->
 
-                    <a href="{{ site.github.url | replace: 'http://', '//' }}/img/slide/2.png" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/slide/2.png" alt="Owl Image">
-                        </div>
-                    </a>
+		<!-- Contact -->
+		<section id="contact">
+			<div class="container">
+				<div class="row sub-icon">
+					<div class="col-md-10 col-md-offset-1 col-md-push-1">
+						<div class="row">
+							<div class="col-sm-4 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay=".4s">
+								<h3><span class="ti-location-pin"></span>Address</h3>
+								<p>Apple Valley, Minnesota, USA</p>
+							</div>
+							<div class="col-sm-4 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay=".6s">
+								<h3><span class="ti-email"></span>Email</h3>
+								<a href="mailto:luis.pena.nunez.developer@gmail.com">luis.pena.nunez.developer@gmail.com</a>							
+							</div>
+							<div class="col-sm-4 wow fadeInDown" data-wow-duration="1.5s" data-wow-delay=".8s">
+								<h3><span class="ti-mobile"></span>Phone</h3>
+								<a href="tel:+441258889063">+1 612 747 4048</a>							
+							</div>
+						</div>	
+					</div>	
+				</div>
+				<div class="row top-pad sub-icon">
+					<div class="col-md-8 col-md-offset-2">
+	    				<form class="form-horizontal" method="post" action="email.php">
+							<div class="form-group">
+								<div class="col-md-12">	
 
-                    <a href="{{ site.github.url | replace: 'http://', '//' }}/img/slide/3.png" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/slide/3.png" alt="Owl Image">
-                        </div>
-                    </a>
+									<!-- Email Confirmation Success -->
+									<p class="confirmation send-success"><span class="ti-check-box"></span>Email sent successfully.</p>
+									<!-- Email Confirmation Error -->										
+									<p class="confirmation send-error"><span class="ti-alert"></span>There is a problem sending email ...</p>				
 
-                    <a href="{{ site.github.url | replace: 'http://', '//' }}/img/slide/4.png" class="image-link">
-                        <div class="item">
-                            <img class="img-responsive img-rounded" src="{{ site.github.url | replace: 'http://', '//' }}/img/slide/4.png" alt="Owl Image">
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+									<input class="form-control" type="text" name="name" placeholder="Name" required="required">
+									<input class="form-control" type="text" name="subject" placeholder="Subject" required="required">
+									<input class="form-control" type="email" name="email" placeholder="Email" required="required">
+									<textarea class="form-control" name="message" rows="4" placeholder="Message" required="required"></textarea>
+									<button type="submit" class="btn custom-btn-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Submit</button>
 
-    <!-- Contact -->
-    <div id="contact" class="content-section-a">
-        <div class="container">
-            <div class="row">
+								</div>								
+							</div>
+						</form>							
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Contact -->
 
-                <div class="col-xs-12 text-center">
-            <h2>Let's Connect?</h2>
-            <h4>Want me in your team? I'm sure you do! :)</h4>
-            <ul class="list-inline intro-social-buttons">
-                <li>
-                    <a href="https://www.linkedin.com/in/luis-alberto-pe%C3%B1a-nu%C3%B1ez-aa70a5103/" class="btn  btn-lg mybutton_cyano wow fadeIn"
-                        data-wow-delay="0.8s"><span class="network-name">Connect with me on LinkedIn</span></a>
-                </li>
-                <!--<li id="download">
-                    <a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
-                </li>-->
-            </ul>
-        </div>
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+                        <label>Follow me on</label>
+						<ul class="list-inline social-icon">
+							<li><a href="https://www.facebook.com/sodksmmsmmwpwpskd" target="_blank"><span class="ti-facebook"></span></a></li>
+							<li><a href="https://www.instagram.com/luisapenanunez/"><span class="ti-instagram"></span></a></li>
+							<li><a href="https://twitter.com/luispnez"><span class="ti-twitter"></span></a></li>
+							<li><a href="https://github.com/LuisAlbertoPenaNunez"><span class="ti-github"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/luis-alberto-pe%C3%B1a-nu%C3%B1ez-aa70a5103/"><span class="ti-linkedin"></span></a></li>
+						</ul>					
+					</div>
+				</div>
+			</div>	
+		</footer>
+		<!-- END: Footer -->
 
-                <hr class="featurette-divider hidden-lg">
-                <div class="col-md-5 col-md-push-1 address">
-                    <h3>Social</h3>
-                    <li class="social">
-                        <a href="https://github.com/LuisAlbertoPenaNunez"><i class="fa  fa-github fa-size"> </i> </a>
-                        <a href="https://www.instagram.com/luisapenanunez/"><i class="fa  fa-instagram fa-size"> </i> </a>
-                        <a href="https://www.facebook.com/profile.php?id=100004652145948"><i class="fa fa-facebook fa-size"> </i></a>
-                        <a href="https://twitter.com/luispnez"><i class="fa  fa-twitter fa-size"> </i> </a>
-                        <a href="https://plus.google.com/103648615589538436999"><i class="fa fa-google-plus fa-size"> </i></a>
-                        <a href="https://www.linkedin.com/in/luis-alberto-pe%C3%B1a-nu%C3%B1ez-aa70a5103/"><i class="fa fa-linkedin fa-size"> </i> </a>
-                    </li>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Scroll Top -->
+		<div class="scroll-top">
+			<a class="page-scroll" href="#page-top"><span class="ti-angle-up"></span></a>
+		</div>
+		<!-- END: Scroll Top -->																
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h3 class="footer-title">Do you like what you see?</h3>
-                    <p>This website was designed by <a href="www.andreagalanti.it">andreagalanti.it</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+		<!-- javascript plugins -->
+		<script src="assets/js/jquery-1.11.1.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.easing.1.3.min.js"></script>
+		<script src="assets/js/appear.js"></script>
+		<script src="assets/js/bootstrap-progressbar.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.mixitup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/animated-jquery.js"></script>
+		<script src="assets/js/wow.min.js"></script>
 
-    <!-- JavaScript -->
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/jquery-1.10.2.js"></script>
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/bootstrap.js"></script>
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/owl.carousel.js"></script>
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/script.js"></script>
-    <!-- StikyMenu -->
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/stickUp.min.js"></script>
-    <script type="text/javascript">
-        jQuery(function ($) {
-            $(document).ready(function () {
-                $('.navbar-default').stickUp();
 
-            });
-        });
-    </script>
-    <!-- Smoothscroll -->
-    <script type="text/javascript" src="{{ site.github.url | replace: 'http://', '//' }}/js/jquery.corner.js"></script>
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/classie.js"></script>
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/uiMorphingButton_inflow.js"></script>
-    <!-- Magnific Popup core JS file -->
-    <script src="{{ site.github.url | replace: 'http://', '//' }}/js/jquery.magnific-popup.js"></script>
-</body>
-</html>
+		<!-- custom js -->
+		<script src="assets/js/custom.js"></script>		
+
+	</body>
+	
+</html>			
