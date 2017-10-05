@@ -46,6 +46,10 @@ Index
  *  01. Body
 /* ====================================== */
 
+* {
+  image-rendering: -webkit-optimize-contrast
+}
+
 body {
   font-family: 'Source Sans Pro', Arial, Sans-serif;
   font-size: 15px;
